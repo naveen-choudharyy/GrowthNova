@@ -1,0 +1,82 @@
+# ============================================================
+# GrowthNova — .gitignore
+# Node.js + React + Vite + TypeScript + macOS
+# ============================================================
+
+# ── Dependencies ─────────────────────────────────────────────
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# ── Build Outputs ────────────────────────────────────────────
+dist/
+client/dist/
+server/dist/
+build/
+
+# ── Environment Variables ────────────────────────────────────
+# Keep .env.example — ignore all real .env files
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+server/.env
+client/.env
+client/.env.production
+# DO NOT ignore .env.example
+
+# ── Vite ─────────────────────────────────────────────────────
+*.local
+.vite/
+client/.vite/
+
+# ── Local Database Fallback ──────────────────────────────────
+# Local JSON store — not for version control
+server/data/*.json
+
+# ── Uploaded Media ───────────────────────────────────────────
+# Keep uploads directory (via .gitkeep), ignore its contents
+uploads/*
+!uploads/.gitkeep
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+server/logs/
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ── Testing & Coverage ───────────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+
+# ── TypeScript ───────────────────────────────────────────────
+*.tsbuildinfo
+
+# ── Editor & IDE ─────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Misc ─────────────────────────────────────────────────────
+*.sock
+test.sock
+.cache/
+tmp/
+temp/

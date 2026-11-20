@@ -1,0 +1,40 @@
+{
+  "name": "growthnova-agency",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GrowthNova — Professional Digital Agency | Your Vision. Our Strategy. Your Growth.",
+  "author": "GrowthNova",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.11",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.454.0",
+    "mongoose": "^8.8.0",
+    "next": "^14.2.18",
+    "nodemailer": "^10.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^20.17.6",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  }
+}

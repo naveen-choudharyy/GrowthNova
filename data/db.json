@@ -1,0 +1,643 @@
+{
+  "adminUsers": [
+    {
+      "id": "usr-anchal",
+      "name": "Anchal Swami",
+      "email": "anchal@growthnova.com",
+      "passwordHash": "$2a$10$68MW1jeEVNnij1R/9ZxyUu95PwSgWag75VfecaT.p8KqB7Qk1posi",
+      "role": "founder",
+      "createdAt": "2026-11-20T07:29:56.284Z"
+    },
+    {
+      "id": "usr-komal",
+      "name": "Komal Swami",
+      "email": "komal@growthnova.com",
+      "passwordHash": "$2a$10$68MW1jeEVNnij1R/9ZxyUu95PwSgWag75VfecaT.p8KqB7Qk1posi",
+      "role": "founder",
+      "createdAt": "2026-11-20T07:29:56.284Z"
+    },
+    {
+      "id": "usr-admin",
+      "name": "GrowthNova SuperAdmin",
+      "email": "admin@growthnova.com",
+      "passwordHash": "$2a$10$68MW1jeEVNnij1R/9ZxyUu95PwSgWag75VfecaT.p8KqB7Qk1posi",
+      "role": "superadmin",
+      "createdAt": "2026-11-20T07:29:56.284Z"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "enq-1795163440219-owrx",
+      "name": "Anchal",
+      "email": "Anchal@gmail.com",
+      "preferredContact": "email",
+      "service": "Instagram Account Growth & Management",
+      "budget": "Custom",
+      "description": "ve brhivbecnk3wielckn3eihc3bco3oco3oc",
+      "status": "new",
+      "createdAt": "2026-11-20T08:30:40.219Z",
+      "updatedAt": "2026-11-20T08:30:40.219Z"
+    },
+    {
+      "id": "enq-1795160165836-n765",
+      "name": "Marcus Vance",
+      "organization": "Vance BioTech",
+      "email": "m.vance@vancebiotech.example.com",
+      "preferredContact": "email",
+      "service": "High-Performance Web Development",
+      "budget": "₹1,00,000 - ₹2,50,000",
+      "description": "We require a modern healthcare portal with responsive UI and sub-second page loads.",
+      "status": "new",
+      "createdAt": "2026-11-20T07:36:05.836Z",
+      "updatedAt": "2026-11-20T07:36:05.836Z"
+    },
+    {
+      "id": "enq-101",
+      "name": "Rohit Sharma",
+      "organization": "Veritas Retail Solutions",
+      "email": "rohit.s@veritasretail.example.com",
+      "preferredContact": "email",
+      "service": "High-Performance Web Development",
+      "budget": "₹50,000 - ₹1,00,000",
+      "description": "We are looking to rebuild our legacy retail website into a fast, modern digital showcase with WhatsApp catalog and enquiry pipeline.",
+      "status": "new",
+      "internalNotes": "Initial enquiry received. Needs modern web overhaul.",
+      "createdAt": "2026-11-20T02:29:55.921Z",
+      "updatedAt": "2026-11-20T02:29:55.921Z"
+    },
+    {
+      "id": "enq-102",
+      "name": "Aanya Kapoor",
+      "organization": "Studio Terra Lifestyle",
+      "email": "aanya@studioterra.example.com",
+      "preferredContact": "website_message",
+      "service": "Digital Marketing & Social Strategy",
+      "budget": "₹25,000 - ₹50,000",
+      "description": "Seeking full Instagram aesthetic management, reels editing, and organic follower growth for our newly launched luxury home decor brand.",
+      "status": "contacted",
+      "internalNotes": "Contacted via website messenger. Scheduled brief review.",
+      "createdAt": "2026-11-19T07:29:55.921Z",
+      "updatedAt": "2026-11-19T13:29:55.921Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1795163556858-2hog",
+      "conversationId": "conv-1795163556858-gihls",
+      "visitorName": "cjbskcdb",
+      "visitorEmail": "anchal@gmail.com",
+      "initialMessage": "wjhevfrbucjb2",
+      "isRead": false,
+      "status": "unread",
+      "replies": [],
+      "createdAt": "2026-11-20T08:32:36.858Z",
+      "updatedAt": "2026-11-20T08:32:36.858Z"
+    },
+    {
+      "id": "msg-1795160733316-5cde",
+      "conversationId": "conv-1795160733316-r92j1",
+      "visitorName": "sadsgd",
+      "visitorEmail": "asgndh@df",
+      "initialMessage": "dfbgsndhf",
+      "isRead": false,
+      "status": "unread",
+      "replies": [],
+      "createdAt": "2026-11-20T07:45:33.316Z",
+      "updatedAt": "2026-11-20T07:45:33.316Z"
+    },
+    {
+      "id": "msg-1795160165834-w35u",
+      "conversationId": "conv-1795160165834-uee78",
+      "visitorName": "Elena Rostova",
+      "visitorEmail": "elena@novacapital.example.com",
+      "initialMessage": "Hello Anchal & Komal, we need a complete brand identity and Next.js portal build for our European venture fund.",
+      "isRead": true,
+      "status": "replied",
+      "replies": [
+        {
+          "id": "rep-1795160165904-s4pv",
+          "senderName": "Anchal Swami",
+          "senderRole": "founder",
+          "content": "Dear Elena, thank you for reaching out to GrowthNova. Our Creative Design and Web Development pods would be delighted to partner on your fund portal.",
+          "createdAt": "2026-11-20T07:36:05.904Z"
+        }
+      ],
+      "createdAt": "2026-11-20T07:36:05.834Z",
+      "updatedAt": "2026-11-20T07:36:05.904Z"
+    },
+    {
+      "id": "msg-201",
+      "conversationId": "conv-201",
+      "visitorName": "David Miller",
+      "visitorEmail": "david.m@globexcapital.example.com",
+      "initialMessage": "Hello GrowthNova team, we represent a boutique advisory firm in Singapore. We are impressed by your glassmorphic web aesthetic and would like to discuss a revamp of our international brand portal.",
+      "isRead": false,
+      "status": "unread",
+      "replies": [],
+      "createdAt": "2026-11-20T04:29:55.921Z",
+      "updatedAt": "2026-11-20T04:29:55.921Z"
+    },
+    {
+      "id": "msg-202",
+      "conversationId": "conv-202",
+      "visitorName": "Priya Mehra",
+      "visitorEmail": "priya@auracosmetics.example.com",
+      "initialMessage": "Hi Anchal and Komal, do your video production and creative teams handle end-to-end UGC reel scripting and post-production for cosmetic products?",
+      "isRead": true,
+      "status": "replied",
+      "replies": [
+        {
+          "id": "rep-1",
+          "senderName": "Anchal Swami",
+          "senderRole": "founder",
+          "content": "Hello Priya, thank you for reaching out! Yes, our Video Production & Editing Team works hand-in-hand with our Creative Design team to script, edit, and optimize UGC and product reels specifically for maximum retention and conversions.",
+          "createdAt": "2026-11-19T19:29:55.921Z"
+        }
+      ],
+      "createdAt": "2026-11-19T03:29:55.921Z",
+      "updatedAt": "2026-11-19T19:29:55.921Z"
+    }
+  ],
+  "portfolioProjects": [
+    {
+      "id": "proj-1",
+      "title": "Instagram Creative Edit — Part 01",
+      "category": "Video Editing",
+      "description": "Original short-form Instagram edit with dynamic pacing, sound design, and viral audio synchronization.",
+      "tags": [
+        "Instagram Reel",
+        "Short-Form",
+        "Sound FX"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "/videos/instagram/instagram-edit-01.mp4",
+      "isFeatured": true,
+      "isDemo": false,
+      "order": 1,
+      "createdAt": "2026-11-20T08:30:40.199Z"
+    },
+    {
+      "id": "proj-2",
+      "title": "Instagram Aesthetic Reel — Part 02",
+      "category": "Instagram",
+      "description": "High-engagement social media reel crafted for audience growth and aesthetic visual appeal.",
+      "tags": [
+        "Reels Growth",
+        "Social Strategy",
+        "Aesthetic Edit"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "/videos/instagram/instagram-edit-02.mp4",
+      "instagramUrl": "https://www.instagram.com/littleluxefinds.co19/",
+      "isFeatured": true,
+      "isDemo": false,
+      "order": 2,
+      "createdAt": "2026-11-20T08:30:40.199Z"
+    },
+    {
+      "id": "proj-3",
+      "title": "Cinematic Video Editing Showcase",
+      "category": "Video Editing",
+      "description": "Original cinematic promo edit demonstrating seamless cuts, color grading, and commercial storytelling.",
+      "tags": [
+        "Cinematic Edit",
+        "Promo Video",
+        "Color Grading"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "/videos/editing/video-editing.mp4",
+      "isFeatured": true,
+      "isDemo": false,
+      "order": 3,
+      "createdAt": "2026-11-20T08:30:40.199Z"
+    },
+    {
+      "id": "proj-4",
+      "title": "Apex Financial Platform",
+      "category": "Websites",
+      "description": "High-performance dark glassmorphism fintech website with responsive UX and sub-second page loads.",
+      "tags": [
+        "Next.js",
+        "Fintech",
+        "Modern UI"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+      "externalUrl": "https://growthnova.com/showcase/apex",
+      "isFeatured": true,
+      "isDemo": false,
+      "order": 4,
+      "createdAt": "2026-11-20T08:30:40.199Z"
+    },
+    {
+      "id": "proj-5",
+      "title": "Aura Botanicals Luxury Identity",
+      "category": "Branding",
+      "description": "Minimalist brand identity system, custom vector logo typography, packaging, and digital collateral.",
+      "tags": [
+        "Brand Identity",
+        "Logo Design",
+        "Luxury Packaging"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop",
+      "isFeatured": true,
+      "isDemo": false,
+      "order": 5,
+      "createdAt": "2026-11-20T08:30:40.199Z"
+    },
+    {
+      "id": "proj-6",
+      "title": "Zenith Health SaaS Platform",
+      "category": "Websites",
+      "description": "Modern healthcare portal with responsive booking flow and accessible user interface.",
+      "tags": [
+        "Web Application",
+        "Responsive",
+        "Clean UI"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
+      "externalUrl": "https://growthnova.com/showcase/zenith",
+      "isFeatured": true,
+      "isDemo": false,
+      "order": 6,
+      "createdAt": "2026-11-20T08:30:40.199Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "slug": "digital-marketing",
+      "title": "Digital Marketing & Social Strategy",
+      "team": "Digital Marketing Team",
+      "shortDescription": "Comprehensive social media strategy, Instagram account management, brand positioning, and targeted marketing campaigns that scale reach and engagement.",
+      "fullDescription": "Our Digital Marketing Team engineers strategic social media growth, high-converting organic funnels, and brand positioning campaigns. We handle everything from content calendars and aesthetic curation to community engagement and performance analytics.",
+      "benefits": [
+        "Accelerated organic reach and engaged community building",
+        "Consistent, cohesive brand voice across all digital channels",
+        "Data-backed content calendars aligned with business sales cycles",
+        "Comprehensive monthly growth reports and analytics"
+      ],
+      "deliverables": [
+        "Monthly social media strategy and content roadmap",
+        "Instagram account management & aesthetic curation",
+        "Captions, hashtag research, and community engagement",
+        "Paid campaign setup and conversion optimization",
+        "Monthly performance audit & growth strategy review"
+      ],
+      "suitableFor": [
+        "D2C and E-commerce brands",
+        "Local businesses expanding online footprint",
+        "Startups launching new products or services",
+        "Corporate brands needing modern social presence"
+      ],
+      "pricingRange": {
+        "min": 20000,
+        "max": 75000,
+        "currency": "INR",
+        "unit": "per month"
+      },
+      "iconName": "TrendingUp",
+      "isActive": true,
+      "order": 1
+    },
+    {
+      "id": "srv-2",
+      "slug": "web-development",
+      "title": "High-Performance Web Development",
+      "team": "Web Development Team",
+      "shortDescription": "Custom business websites, high-converting landing pages, e-commerce platforms, and scalable web applications built with modern frameworks.",
+      "fullDescription": "Our Web Development Team crafts blisteringly fast, responsive, and secure web solutions. Leveraging modern technologies like Next.js, React, and robust API architectures, we turn visitors into paying customers with seamless user experiences.",
+      "benefits": [
+        "Sub-second page loading speeds and 95+ Google Lighthouse scores",
+        "Fully responsive UI engineered for mobile, tablet, and desktop",
+        "Built-in enterprise SEO foundations and semantic accessibility",
+        "Secure, maintainable codebase ready for future scaling"
+      ],
+      "deliverables": [
+        "Custom responsive web application or website",
+        "Content management dashboard or headless CMS integration",
+        "Speed optimization, SSL setup, and domain configuration",
+        "Contact & lead capture forms with database storage",
+        "30-day post-launch technical support and training"
+      ],
+      "suitableFor": [
+        "Startups needing a high-impact launch website",
+        "Established companies revamping outdated sites",
+        "E-commerce brands seeking custom online storefronts",
+        "Consultancies, clinics, and professional firms"
+      ],
+      "pricingRange": {
+        "min": 35000,
+        "max": 150000,
+        "currency": "INR",
+        "unit": "per project"
+      },
+      "iconName": "Code",
+      "isActive": true,
+      "order": 2
+    },
+    {
+      "id": "srv-3",
+      "slug": "creative-design",
+      "title": "Brand Identity & Creative Design",
+      "team": "Creative Design Team",
+      "shortDescription": "Memorable brand identity, modern logo systems, high-converting social media creatives, marketing graphics, and premium digital collateral.",
+      "fullDescription": "The Creative Design Team translates business vision into visual authority. From foundational brand guidelines and typography systems to daily marketing graphics and event banners, we create designs that captivate and convert.",
+      "benefits": [
+        "Cohesive visual identity that commands premium pricing",
+        "Eye-catching social graphics that elevate brand credibility",
+        "Vector asset libraries for print, digital, and outdoor media",
+        "Distinctive market positioning that stands out from competitors"
+      ],
+      "deliverables": [
+        "Complete brand identity guide (color palette, typography, usage)",
+        "Vector logo package (primary, secondary, submarks, favicon)",
+        "Social media template kit (Figma/Photoshop/Canva)",
+        "Marketing collateral (brochures, business cards, pitch decks)",
+        "High-resolution promotional banner designs"
+      ],
+      "suitableFor": [
+        "New businesses needing complete brand creation",
+        "Rebranding established organizations",
+        "Retailers & consumer goods brands",
+        "Event organizers and digital product companies"
+      ],
+      "pricingRange": {
+        "min": 15000,
+        "max": 60000,
+        "currency": "INR",
+        "unit": "per project"
+      },
+      "iconName": "Palette",
+      "isActive": true,
+      "order": 3
+    },
+    {
+      "id": "srv-4",
+      "slug": "video-production",
+      "title": "Video Production & Short-Form Editing",
+      "team": "Video Production & Editing Team",
+      "shortDescription": "Viral Instagram Reels, YouTube Shorts, brand documentary videos, promotional advertisements, and high-retention video content.",
+      "fullDescription": "Video is the highest-leverage medium for modern brands. Our Video Production & Editing Team crafts dynamic, high-retention short-form and promotional video content that stops thumbs, sparks conversations, and drives action.",
+      "benefits": [
+        "High retention rates driven by pacing, sound design, and motion graphics",
+        "Optimized for Instagram Reels, YouTube Shorts, and TikTok algorithms",
+        "Professional color grading and cinematic visual polish",
+        "Fast turnaround workflows for rapid trend capitalization"
+      ],
+      "deliverables": [
+        "Paced short-form video edits with dynamic subtitles and sound FX",
+        "Brand promo videos and high-converting product ads",
+        "Motion graphics, title intros, and logo animations",
+        "Audio leveling, noise reduction, and licensing clearing",
+        "Multi-format exports (9:16 vertical, 16:9 widescreen, 1:1 square)"
+      ],
+      "suitableFor": [
+        "Content creators and influencers",
+        "E-commerce brands advertising on Meta & TikTok",
+        "Hospitality, real estate, and lifestyle businesses",
+        "Corporate entities requiring internal or promotional video"
+      ],
+      "pricingRange": {
+        "min": 18000,
+        "max": 70000,
+        "currency": "INR",
+        "unit": "per batch / project"
+      },
+      "iconName": "Film",
+      "isActive": true,
+      "order": 4
+    },
+    {
+      "id": "srv-5",
+      "slug": "seo-growth",
+      "title": "SEO & Organic Growth Optimization",
+      "team": "SEO & Growth Team",
+      "shortDescription": "Technical SEO audits, keyword strategy, high-intent content planning, and organic search engine ranking that attracts qualified buyers consistently.",
+      "fullDescription": "Our SEO & Growth Team positions your brand at the exact moment potential customers are searching for your solutions. We execute deep technical audits, comprehensive keyword clustering, and link-worthy content strategies for long-term organic dominance.",
+      "benefits": [
+        "Sustainable inbound traffic without continuous ad spend",
+        "Higher conversion rates from high-intent search queries",
+        "Technical health improvements that protect site integrity",
+        "Local SEO dominance in Google Maps and local search results"
+      ],
+      "deliverables": [
+        "Exhaustive technical SEO and core web vitals audit",
+        "High-intent competitor and keyword gap analysis",
+        "On-page content optimization and meta architecture",
+        "Google Search Console and Google Analytics configuration",
+        "Monthly organic search ranking and traffic progress reports"
+      ],
+      "suitableFor": [
+        "Local businesses targeting geographic customer bases",
+        "B2B service providers seeking inbound corporate leads",
+        "High-volume e-commerce stores",
+        "Professional medical, legal, and financial practices"
+      ],
+      "pricingRange": {
+        "min": 25000,
+        "max": 80000,
+        "currency": "INR",
+        "unit": "per month"
+      },
+      "iconName": "Search",
+      "isActive": true,
+      "order": 5
+    }
+  ],
+  "consultations": [
+    {
+      "id": "cst-1795160165838-memg",
+      "name": "Sarah Jenkins",
+      "organization": "Aura Lifestyle",
+      "email": "sarah@auralifestyle.example.com",
+      "service": "Digital Marketing & Social Strategy",
+      "preferredDate": "2026-11-28",
+      "preferredTimeSlot": "11:00 AM - 12:00 PM IST",
+      "description": "Seeking full Instagram curation and reels strategy for Q1 product launch.",
+      "status": "Approved",
+      "createdAt": "2026-11-20T07:36:05.838Z",
+      "updatedAt": "2026-11-20T07:36:05.905Z",
+      "internalNotes": "Session confirmed on calendar with Anchal & Komal."
+    },
+    {
+      "id": "cst-301",
+      "name": "Siddharth Rao",
+      "organization": "NovaPay Technologies",
+      "email": "siddharth@novapay.example.com",
+      "service": "High-Performance Web Development",
+      "preferredDate": "2026-11-25",
+      "preferredTimeSlot": "11:00 AM - 12:00 PM IST",
+      "description": "We are raising our seed round and need a top-tier digital presence and product demo landing page ready in 3 weeks.",
+      "status": "New",
+      "internalNotes": "High priority startup opportunity. Evaluate timeline.",
+      "createdAt": "2026-11-20T01:29:55.921Z",
+      "updatedAt": "2026-11-20T01:29:55.921Z"
+    }
+  ],
+  "content": {
+    "hero": {
+      "badge": "Premier Digital Agency • Dedicated Specialized Teams",
+      "headline": "We Turn Your Vision Into Digital Growth.",
+      "subheadline": "From powerful websites to creative marketing strategies, GrowthNova brings specialised teams together to help businesses build, grow, and succeed in the digital world.",
+      "primaryCtaText": "Let's Work Together",
+      "secondaryCtaText": "Explore Our Work"
+    },
+    "about": {
+      "tagline": "Your Vision. Our Strategy. Your Growth.",
+      "story": "GrowthNova was established with a singular objective: to bridge the gap between creative ambition and tangible business expansion. Rather than offering one-size-fits-all freelance services, GrowthNova operates as a cohesive digital agency composed of five dedicated, cross-functional teams spanning engineering, brand identity, social acceleration, video storytelling, and search optimisation.",
+      "vision": "To become the benchmark digital transformation partner for forward-thinking startups, growing brands, and established organizations worldwide by delivering measurable, compounding digital growth.",
+      "mission": "To empower brands through strategic design, high-performance web development, and impact-driven marketing campaigns, turning ambitious visions into dominant digital presences.",
+      "philosophy": "Strategy first, execution with precision, and relentless focus on client ROI. We believe true digital success requires coordinated collaboration between specialized disciplines.",
+      "approach": "Our 4-stage delivery framework: 1. Deep Discovery & Strategy, 2. Collaborative Design & Prototyping, 3. Agile Technical & Creative Execution, 4. Launch, Measurement & Continuous Scale."
+    },
+    "stats": [
+      {
+        "label": "Specialised Teams",
+        "value": "5",
+        "description": "Cross-functional creative & technical pods"
+      },
+      {
+        "label": "Client Satisfaction",
+        "value": "99%",
+        "description": "Transparent collaboration & quality delivery"
+      },
+      {
+        "label": "Digital Disciplines",
+        "value": "25+",
+        "description": "End-to-end full service agency capabilities"
+      },
+      {
+        "label": "Active Projects Handled",
+        "value": "50+",
+        "description": "Startups, businesses & international clients"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How is GrowthNova structured differently from individual freelancers?",
+        "answer": "GrowthNova is an integrated digital agency with dedicated specialized pods: Web Development, Digital Marketing, Creative Design, Video Production, and SEO. Every project is steered by dedicated specialists working in synergy rather than a solo generalist.",
+        "category": "Agency"
+      },
+      {
+        "question": "How do you preserve client confidentiality and privacy?",
+        "answer": "We adhere to rigorous data privacy standards. Direct communication is handled via our private encrypted website messaging system and official channels without exposing sensitive private contact vectors.",
+        "category": "Communication"
+      },
+      {
+        "question": "Can you work with both local businesses and international clients?",
+        "answer": "Yes. Our remote-first, collaborative infrastructure allows us to serve local enterprises, national businesses, and international startups across time zones.",
+        "category": "Services"
+      },
+      {
+        "question": "How do we get started with a project?",
+        "answer": "You can submit a project enquiry through our Work With Us page, use our interactive Project Cost Estimator, or schedule a strategy consultation. Our team will review your requirements and respond within 24 hours.",
+        "category": "Onboarding"
+      }
+    ],
+    "pricingRules": {
+      "baseRate": 25000,
+      "complexityMultiplier": {
+        "standard": 1,
+        "advanced": 1.6,
+        "enterprise": 2.5
+      },
+      "scaleMultiplier": {
+        "startup": 1,
+        "growing": 1.4,
+        "established": 2.2
+      },
+      "featurePrice": 4000,
+      "currency": "INR"
+    }
+  },
+  "activityLogs": [
+    {
+      "id": "act-1795163556859-v34l",
+      "action": "New Website Message",
+      "entityType": "message",
+      "entityId": "msg-1795163556858-2hog",
+      "actor": "cjbskcdb",
+      "details": "Direct message from cjbskcdb. Forwarded to swamianchal047@gmail.com",
+      "timestamp": "2026-11-20T08:32:36.859Z"
+    },
+    {
+      "id": "act-1795163440219-gnf0",
+      "action": "New Enquiry Received",
+      "entityType": "enquiry",
+      "entityId": "enq-1795163440219-owrx",
+      "actor": "Anchal",
+      "details": "New project enquiry for \"Instagram Account Growth & Management\" from Anchal. Forwarded to swamianchal047@gmail.com",
+      "timestamp": "2026-11-20T08:30:40.219Z"
+    },
+    {
+      "id": "act-1795160733317-d2t5",
+      "action": "New Website Message",
+      "entityType": "message",
+      "entityId": "msg-1795160733316-5cde",
+      "actor": "sadsgd",
+      "details": "Direct message from sadsgd: \"dfbgsndhf...\"",
+      "timestamp": "2026-11-20T07:45:33.317Z"
+    },
+    {
+      "id": "act-1795160165905-9kqz",
+      "action": "Consultation Status Updated",
+      "entityType": "consultation",
+      "entityId": "cst-1795160165838-memg",
+      "actor": "Anchal Swami",
+      "details": "Updated status to \"Approved\" for consultation with Sarah Jenkins",
+      "timestamp": "2026-11-20T07:36:05.905Z"
+    },
+    {
+      "id": "act-1795160165899-sjm2",
+      "action": "Admin Login",
+      "entityType": "auth",
+      "entityId": "usr-anchal",
+      "actor": "Anchal Swami",
+      "details": "User Anchal Swami (founder) successfully logged in.",
+      "timestamp": "2026-11-20T07:36:05.899Z"
+    },
+    {
+      "id": "act-1795160165838-mwhh",
+      "action": "Consultation Requested",
+      "entityType": "consultation",
+      "entityId": "cst-1795160165838-memg",
+      "actor": "Sarah Jenkins",
+      "details": "Consultation request for Digital Marketing & Social Strategy on 2026-11-28 by Sarah Jenkins.",
+      "timestamp": "2026-11-20T07:36:05.838Z"
+    },
+    {
+      "id": "act-1795160165836-v55o",
+      "action": "New Enquiry Received",
+      "entityType": "enquiry",
+      "entityId": "enq-1795160165836-n765",
+      "actor": "Marcus Vance",
+      "details": "New project enquiry for \"High-Performance Web Development\" (₹1,00,000 - ₹2,50,000) from Marcus Vance.",
+      "timestamp": "2026-11-20T07:36:05.836Z"
+    },
+    {
+      "id": "act-1795160165835-iwq0",
+      "action": "New Website Message",
+      "entityType": "message",
+      "entityId": "msg-1795160165834-w35u",
+      "actor": "Elena Rostova",
+      "details": "Direct message from Elena Rostova: \"Hello Anchal & Komal, we need a complete brand identity and ...\"",
+      "timestamp": "2026-11-20T07:36:05.835Z"
+    },
+    {
+      "id": "act-1",
+      "action": "System Initialized",
+      "entityType": "auth",
+      "actor": "System",
+      "details": "GrowthNova Agency Platform initialized with founder accounts for Anchal Swami and Komal Swami.",
+      "timestamp": "2026-11-20T07:29:56.284Z"
+    },
+    {
+      "id": "act-2",
+      "action": "Services Seeded",
+      "entityType": "service",
+      "actor": "System",
+      "details": "5 Specialised Team services configured.",
+      "timestamp": "2026-11-20T07:29:56.284Z"
+    }
+  ]
+}
